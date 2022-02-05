@@ -1,3 +1,0 @@
-collection // whatever collection id we pass, it will be extracted using the router
-// useMemo() is a hook that is like useEffect(), but has caching built into it 
-// https://eth-rinkeby.alchemyapi.io/v2/r-Cn7DUqkfCfCRnHaj6AwpyTBh7R-SUc

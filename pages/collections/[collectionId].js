@@ -31,7 +31,8 @@ const style = {
   statName: `text-lg w-full text-center mt-1`,
   description: `text-[#8a939b] text-xl w-max-1/4 flex-wrap mt-4`,
 }
-
+// whatever collection id we pass, it will be extracted using the router
+// useMemo() is a hook that is like useEffect(), but has caching built into it 
 const Collection = () => {
   const router = useRouter()
   const { provider } = useWeb3()
